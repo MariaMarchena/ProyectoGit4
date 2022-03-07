@@ -12,5 +12,9 @@ namespace ProyectoGit4.Controllers
         {
             return View();
         }
+        public IActionResult Volver()
+        {
+            return RedirectToAction("Index", "Home");//Vista y Controlador
+        }
     }
 }
